@@ -1,0 +1,31 @@
+{
+  "name": "swagger-client-mocha",
+  "version": "1.0.0",
+  "description": "POC of swagger-client >= 3.19.0 working with mocha >= 10",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/char0n/swagger-client-mocha.git"
+  },
+  "keywords": [
+    "mocha",
+    "swagger-client",
+    "test"
+  ],
+  "author": "Vladimir Gorej <vladimir.gorej@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/char0n/swagger-client-mocha/issues"
+  },
+  "homepage": "https://github.com/char0n/swagger-client-mocha#readme",
+  "dependencies": {
+    "swagger-client": "^3.19.3"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
